@@ -1,0 +1,39 @@
+{
+  "name": "apostrophe-forms-regexp-text-field-widgets",
+  "version": "1.0.0",
+  "description": "Text fields that allow custom regular expression checks, for apostrophe-forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apostrophecms/apostrophe-forms-regexp-text-field-widgets.git"
+  },
+  "keywords": [
+    "apostrophecms",
+    "forms"
+  ],
+  "author": "Apostrophe Technologies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apostrophecms/apostrophe-forms-regexp-text-field-widgets/issues"
+  },
+  "homepage": "https://github.com/apostrophecms/apostrophe-forms-regexp-text-field-widgets#readme",
+  "peerDependencies": {
+    "apostrophe-forms": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-apostrophe": "^3.1.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "time-limited-regular-expressions": "^1.0.0"
+  }
+}

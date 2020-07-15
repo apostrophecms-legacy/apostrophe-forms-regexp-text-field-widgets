@@ -1,0 +1,7 @@
+# we commit less but not css
+/public/css/*.css
+package-lock.json
+node_modules
+test/node_modules
+# ignore vim swp files
+.*sw*
