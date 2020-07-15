@@ -17,5 +17,5 @@ modules: {
 
 ## Preventing DOS (Denial of Service) attacks
 
-Since [many regular expressions can run for hours on malicious input](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS), this module uses the [time-limited-regular-expressions](https://github.com/apostrophecms/time-limited-regular-expressions) module to limit the runtime to one-quarter second. This will not be an issue on reasonable input. If you do get a timeout message when testing your form, you should write a more efficient regular expression.
+Since [many regular expressions can run for hours on malicious input](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS), which could completely block the site, this module uses the [time-limited-regular-expressions](https://github.com/apostrophecms/time-limited-regular-expressions) module to limit the runtime to one-quarter second. This will not be an issue on reasonable input. If you do get a timeout message when testing your form, you should write a more efficient regular expression.
 
