@@ -7,11 +7,11 @@ apos.define('apostrophe-forms-regexp', {
   construct: function(self, options) {
 
     self.addFieldType = function() {
-      var superConvert = apos.schemas.fieldTypes['string'].convert;
+      var superConvert = apos.schemas.fieldTypes.string.convert;
 
       apos.schemas.addFieldType({
         name: 'apostrophe-forms-regexp',
-        populate: apos.schemas.fieldTypes['string'].populate,
+        populate: apos.schemas.fieldTypes.string.populate,
         convert: function(data, name, $field, $el, field, callback) {
           return superConvert(data, name, $field, $el, field, function(err) {
             if (err) {

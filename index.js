@@ -65,7 +65,7 @@ module.exports = {
         name: 'apostrophe-forms-regexp',
         converters: {
           string: function (req, data, name, object, field, callback) {
-            var test = self.apos.launder.string(data[name]);
+            const test = self.apos.launder.string(data[name]);
             if (test.length) {
               try {
                 // eslint-disable-next-line no-new
