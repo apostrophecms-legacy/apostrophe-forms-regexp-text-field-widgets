@@ -1,3 +1,7 @@
+# ⛔️ **DEPRECATED** — do not use for new projects
+
+See [our current docs](https://docs.apostrophecms.org/)
+
 This module adds a new type of text field that allows the admin to specify their own regular expression. It is meant for use alongside the `apostrophe-forms` module.
 
 ## Configuration
